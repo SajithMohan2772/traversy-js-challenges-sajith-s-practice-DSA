@@ -75,7 +75,7 @@ function findMissingLetter(arr) {
       return String.fromCharCode(start + 1);
     }
     start = current;
-  }
+  } 
   return '';
 }
 ```
